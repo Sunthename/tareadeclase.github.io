@@ -1,0 +1,45 @@
+h1
+{
+    color: black;
+    margin: 50px;
+    font-family: arial black;
+    font: 30px;
+
+}
+
+/*body
+{
+background-color: darkgoldenrod;
+}
+*/
+
+@keyframes fondo 
+{10%{background-color:rgb(255, 0, 0)}
+20%{background-color:rgb(242, 246, 0)}
+30%{background-color:rgb(60, 255, 0)}
+40%{background-color:rgb(76, 220, 35)}
+50%{background-color:rgb(169, 2, 219)}
+}
+
+body
+{
+    animation: fondo;
+    animation-name: fondo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+.parrafo
+{
+color: white;
+font-family: arial;
+font: 50px;
+text-align: justify;
+}
+
+.img
+{
+width: 40%;
+height: 40%;
+border-radius: 20%;
+}
